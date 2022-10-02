@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
-    <h1>hello</h1>
+    <>
+      <img src={require('./images/profile.jpg')} className="img-fluid" />
+    </>
   );
 }
 
